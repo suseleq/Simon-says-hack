@@ -151,4 +151,6 @@ body {
     .guessing-part {
         margin-top: 50px;
     }
+    .popup-part .popup {
+        max-width: 400px;
 }
