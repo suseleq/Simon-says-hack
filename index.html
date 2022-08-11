@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Simon Says 5city</title>
+</head>
+<body>
+    <div class="container">
+        <section class="popup-part show">
+            <div class="popup">
+                <h2 class="text">Zacznij gre</h2>
+                <button class="start-button">Start</button>
+            </div>
+        </section>
+        <section class="says-part">
+            <h2 class="text">Powtórz Kolory</h2>
+            <div class="says-container">
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+                <div class="tile says"></div>
+            </div>
+        </section>
+        <section class="guessing-part">
+            <h2 class="text">Wybierz kolor</h2>
+            <div class="guess-container">
+                <div class="tile guess-button red"></div>
+                <div class="tile guess-button green"></div>
+                <div class="tile guess-button blue"></div>
+                <div class="tile guess-button yellow"></div>
+            </div>
+        </section>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
