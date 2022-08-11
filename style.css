@@ -126,3 +126,29 @@ body {
     color: var(--background);
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    .container {
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .text {
+        font-size: 32px;
+    }
+    .tile {
+        width: 82px;
+        height: 82px;
+    }
+    .says-container {
+        place-items: center;
+    }
+    .guess-container {
+        justify-content: center;
+    }
+    .popup .text {
+        font-size: 32px;
+    }
+    .guessing-part {
+        margin-top: 50px;
+    }
+}
