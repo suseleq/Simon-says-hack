@@ -76,6 +76,6 @@ function restartGame() {
     });
     simonSays = [];
     guesses = 0;
-    round = 0;
+    round = 1;
     startRound();
 }
