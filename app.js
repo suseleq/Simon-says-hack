@@ -51,6 +51,7 @@ function checkColor(e){
 
 function startRound(){
     simonSays.push(colors[Math.round(Math.random() * 3)]);
+    console.log(simonSays);
     showSays();
 }
 
@@ -77,5 +78,6 @@ function restartGame() {
     simonSays = [];
     guesses = 0;
     round = 1;
+    simonSays.push(colors[Math.round(Math.random() * 3)]);
     startRound();
 }
